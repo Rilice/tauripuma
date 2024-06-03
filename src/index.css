@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&family=Titillium+Web&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body, #root, #root > div {
+  height: 100% ;
+  
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  --bs-body-bg:#f1f5f9;
+  padding: 0;
+  margin: 0;
+}
+.preloader {
+  height: 1.0em;
+  width: auto;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  padding: 0 2rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  background: #fafafa;
+}
+
+.container-2:not(.container-2.timetext.navbar-text) {
+  margin-left: 1em;
+  
+
+}
+
+.navbar-custom {
+  background-color: #1d273b;
+  min-height: 3.5rem;
+  align-items:stretch;
+  box-shadow: 0px 2px 0px 0px rgba(34, 60, 80, 0.3);
+
+}
+.navbar-custom:after {
+  content: "";
+  height: 9rem;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: inherit;
+  z-index: -1;
+}
+
+.navbar-custom .navbar-brand{
+  color:#fff;
+}
+
+.container-1{
+  padding-left: 3rem !important;
+}
+.container-2{
+  padding-right: 3em;
+  padding-left: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.navbar-custom .navbar-text,.navbar-custom .nav-link {
+    color: rgba(255,255,255,.7);
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:active,
+.navbar-custom .nav-link.show {
+  --bs-navbar-active-color: #fff;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #fff
+}
+.tabulator.table-striped .tabulator-row:nth-child(2n){
+  background: #e9ecef;
+}
+
+.tabulator { font-size: 16px; }
+
+::-webkit-scrollbar {
+  width: .5rem;
+  height: .5rem;
+  -webkit-transition: background .3s;
+  transition: background .3s;
+}
+::-webkit-scrollbar-corner {
+  background: 0 0;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: rgba(29,39,59,.26);
+}
+::-webkit-scrollbar-track {
+  background: rgba(29,39,59,.16);
+}
+/*
+main {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+div.logo-main {
+  display: table;
+  margin-bottom: 1rem;
+}
+
+div.logo-main img {
+  vertical-align: middle;
+  display: table-cell;
+}
+div.logo-main h3 {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+section ul {
+  list-style: none;
+}
+
+section ul li {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.content,
+p {
+  padding: 1rem 0;
+}
+
+*/
